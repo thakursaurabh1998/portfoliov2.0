@@ -9,11 +9,11 @@ let typed = new Typed('#ok', {
 });
 
 /* Smooth Scroll */
-const sections=3;
+const sections=4;
 for(let i=1;i<=sections;i++){
 	$(`#scroll${i}`).click(()=>{
 		$('html, body').animate({
-        scrollTop: $(`#scrollDiv${i}`).offset().top
-    }, 1000);
+	        scrollTop: $(`#scrollDiv${i}`).offset().top
+	    }, 1000);
 	});
 }
