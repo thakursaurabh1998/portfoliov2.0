@@ -34,11 +34,25 @@ a {
 }
 
 p {
-	font-size: 1.5em;
+	/*font-size: 1.5em;*/
+}
+
+#github-feed a {
+	color: #414141 !important;
 }
 
 .education-font {
 	font-size: 1.2em;
+}
+
+.col-github-feed {
+	height: 100vh;
+	max-height: 100vh;
+}
+
+.height-check {
+	max-height: 80vh;
+	overflow: auto;
 }
 
 .mysidebar-s {
@@ -110,7 +124,7 @@ a:focus, a:active, a:visited, a:link{
 	font-size: 6em;
 }
 
-.col1 {
+.col1, .col-projects {
 	height: 100vh;
 	background-color: #1c1c1c;
 }
@@ -127,6 +141,10 @@ a:focus, a:active, a:visited, a:link{
 .typed-cursor {
 	color: #fff;
 	font-size: 5vh;
+}
+
+.carousel {
+	left: 6%;
 }
 
 .black {
@@ -196,7 +214,7 @@ a:focus, a:active, a:visited, a:link{
 .arrow-over {
   text-align: center;
   position: absolute;
-  bottom:5%;
+  bottom:1%;
   left: calc(50% - 10.23px);
 }
 
@@ -249,7 +267,15 @@ a:focus, a:active, a:visited, a:link{
 	.distance-maintain {
 		margin-top: 6%;
 	}
-	
+	.header-text {
+		padding-top: 5%;
+	}
+	.font-control {
+		font-size: 2em;
+	}
+	.carousel {
+		left: 1%;
+	}
 }
 
 @media screen and (max-width: 400px) {
@@ -264,7 +290,10 @@ a:focus, a:active, a:visited, a:link{
 	.heading-small {
 		font-size: 1.25em;
 	}
-	.arrow-over {
-	  bottom:2%;
+	.height-check {
+		max-height: 75vh;
+	}
+	.carousel {
+		left: 0;
 	}
 }
