@@ -5,14 +5,36 @@
     <title>Saurabh Thakur</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="author" content="Saurabh Thakur">
+    <meta name="keywords" content="Saurabh Thakur, Saurabh, Thakur, Web Developer, Full Stack, Front End, Back End, portfolio">
     <meta name="description" content="Personal website of Saurabh Thakur">
     <meta charset="utf-8">
+    <meta name="theme-color" content="#414141">
     <link href="css/style.css" type="text/css" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
     <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/ico/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/ico/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/ico/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/ico/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/ico/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/ico/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/ico/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/ico/apple-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/ico/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="img/ico/android-icon-192x192.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/ico/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/ico/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/ico/favicon-16x16.png">
+	<link rel="manifest" href="/manifest.json">
+	<meta name="msapplication-TileColor" content="#414141">
+	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
     <!-- Dependency for gituhb-activity feed -->
     <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/octicons/2.0.2/octicons.min.css">
     <link rel="stylesheet" type="text/css" href="css/github-activity.css">
+    <meta property="og:url" content="http://saurabhthakur.xyz">
+	<meta property="og:type" content="portfolio">
+	<meta property="og:description" content="Personal website of Saurabh Thakur">
+	<meta property="og:image" content="img/me-sm.jpeg">
     <!-- <link href="css/jquery.fullpage.min.css" rel="stylesheet"> -->
 </head>
 
@@ -67,9 +89,8 @@
 			    			<div class="col-md-12"><h1 class="title">Introduction</h1></div>
 			    		</div>
 			    		<div class="row">
-			    			<main class="col-md-10">
-			    				<p class="text-small">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Molestias quam accusantium incidunt nulla unde consectetur. Assumenda id est similique iure sint labore aut nesciunt, velit dolores! Quae voluptatem consectetur cupiditate.</p>
-				    			<p class="text-small">Debitis nisi, nam, sint nobis in nulla praesentium necessitatibus, quis adipisci minus culpa perspiciatis accusantium asperiores at. Necessitatibus ipsum consequuntur cumque ex blanditiis earum, facilis, perspiciatis, dignissimos eveniet esse maiores!</p>
+			    			<main class="col-md-10 center" style="text-align: left;">
+			    				<p class="text-small lead-in">Hello World!</p>
 				    		</main>
 			    		</div>
 		    		</div>
@@ -84,7 +105,7 @@
 		
 		<!-- Third section starts -->
 		<div id="scrollDiv2" class="section">
-			<div class="col1h">
+			<div class="col1h relativeBG">
 				<div class="container">
 					<div class="row">
 						<div class="col-md-12">
@@ -130,9 +151,12 @@
 						</div>
 					</div>
 				</div>
+				<span class="arrow-over hide-arrow">
+					<a id="scroll-rel" href="#"><i class="fa fa-angle-down fa-2x arrow white-text"></i></a>
+				</span>
 			</div>
 			
-		    <div class="col2h relativeBG">
+		    <div id="skills" class="col2h relativeBG">
 				<div class="container">
 		    		<div class="row">
 		    			<div class="col-md-12"><h1 class="title">Skills</h1></div>
@@ -218,42 +242,54 @@
 								</ol>
 								<div class="carousel-inner">
 								    <div class="carousel-item active">
-								        <img class="d-block w-100" src="img/map.png" alt="First slide">
+								        <a target="blank" href="https://github.com/thakursaurabh1998/map">
+								        	<img class="d-block w-100" src="img/map.png" alt="First slide">
+								        </a>
 								        <div class="carousel-caption d-none d-md-block">
 											<h3>Maps</h3>
 											<p>Neighborhood Suggestions with help of Google Maps API</p>
 										</div>
 								    </div>
 								    <div class="carousel-item">
-								        <img class="d-block w-100" src="img/sd.png" alt="Second slide">
+								    	<a target="blank" href="https://github.com/thakursaurabh1998/ScienceDigest">
+									        <img class="d-block w-100" src="img/sd.png" alt="Second slide">
+									    </a>
 								        <div class="carousel-caption d-none d-md-block">
 											<h3>Science Digest</h3>
 											<p>This is a webapp which can help you add and share science articles</p>
 										</div>
 								    </div>
 								    <div class="carousel-item">
-								        <img class="d-block w-100" src="img/server.png" alt="Third slide">
+								    	<a target="blank" href="https://github.com/thakursaurabh1998/linux-server-setup">
+									        <img class="d-block w-100" src="img/server.png" alt="Third slide">
+									    </a>
 								        <div class="carousel-caption d-none d-md-block">
 											<h3 class="black">linux-server-setup</h3>
 											<p class="black">Complete instructions on how to start a server by using Google Cloud Compute Engine</p>
 										</div>
 								    </div>
 								    <div class="carousel-item">
-								        <img class="d-block w-100" src="img/todo.png" alt="Fourth slide">
+								    	<a target="blank" href="https://github.com/thakursaurabh1998/todo-app-knockout">
+									        <img class="d-block w-100" src="img/todo.png" alt="Fourth slide">
+									    </a>
 								        <div class="carousel-caption d-none d-md-block">
 											<h3 class="black">Todo App</h3>
 											<p class="black">Create and save all your tasks and manage them with this always available ToDo app. A web app created with help of EcmaScript 6.</p>
 										</div>
 								    </div>
 								    <div class="carousel-item">
-								        <img class="d-block w-100" src="img/cpp.png" alt="Fifth slide">
+								    	<a target="blank" href="https://github.com/thakursaurabh1998/cpp">
+									        <img class="d-block w-100" src="img/cpp.png" alt="Fifth slide">
+									    </a>
 								        <div class="carousel-caption d-none d-md-block">
 											<h3 class="black">C++ Repository</h3>
 											<p class="black">This repo contains all the C++ programs that are made as part of Object Oriented Programming subject.</p>
 										</div>
 								    </div>
 								    <div class="carousel-item">
-								        <img class="d-block w-100" src="img/sd.png" alt="First slide">
+								    	<a target="blank" href="https://github.com/thakursaurabh1998/map">
+									        <img class="d-block w-100" src="img/sd.png" alt="First slide">
+									    </a>
 								        <div class="carousel-caption d-none d-md-block">
 											<h3>Science Digest</h3>
 											<p>This is a webapp which can help you add and share science articles</p>
@@ -298,6 +334,18 @@
 			</div>
 		</div>
 		<!-- Fifth section completes -->
+
+		<!-- Sixth section start -->
+		<div id="scrollDiv5" class="section">
+			<div class="col1 relativeBG">
+				<div class="container">
+					<span class="arrow-over">
+						<a id="scroll6" href="#"><i class="fa fa-angle-down fa-2x white-text arrow"></i></a>
+					</span>
+				</div>
+			</div>
+		</div>
+		<!-- Sixth section start -->
 	</div>
 
     <script src="js/jquery.min.js"></script>

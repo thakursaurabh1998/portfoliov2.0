@@ -16,7 +16,7 @@ GitHubActivity.feed({
 	username: "thakursaurabh1998",
 	// repository: "your-repo", // optional
 	selector: "#feed",
-	limit: 10 // optional
+	limit: 20 // optional
 });
 
 /* Smooth Scroll */
@@ -29,7 +29,11 @@ for(let i=1;i<=sections;i++){
 	});
 }
 
-
+$(`#scroll-rel`).click(()=>{
+	$('html, body').animate({
+        scrollTop: $(`#skills`).offset().top
+    }, 1000);
+});
 
 // touch swipe of the jquery carousel by Andrea Rufo
 // https://codepen.io/andrearufo/pen/rVWpyE
