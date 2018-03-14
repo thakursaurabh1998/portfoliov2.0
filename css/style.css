@@ -147,7 +147,7 @@ a:focus, a:active, a:visited, a:link{
 	left: 6%;
 }
 
-.black {
+.black,.black-car {
 	color: #000;
 }
 
@@ -324,4 +324,14 @@ a:focus, a:active, a:visited, a:link{
   .lead-in:first-line {
     font-size: 32px;
   }
+}
+
+/*Carousel caption display out*/
+@media screen and (max-width: 700px) {
+	#override {
+		position: static;
+	}
+	.black-car {
+		color: #fff;
+	}
 }
