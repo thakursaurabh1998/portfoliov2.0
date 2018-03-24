@@ -42,7 +42,7 @@
 	<div id="fullpage">
 		<!-- First section starts -->
 		<div class="section active">
-		    <div class="col1 relativeBG">
+		    <div id="top-page" class="col1 relativeBG">
 		        <header class="header-text">
 		            <h1 class="my-name">Saurabh Thakur :)</h1>
 		        </header>
@@ -82,15 +82,19 @@
 
 		<!-- Second section starts -->
 		<div class="section">
-		    <div id="scrollDiv1" class="col2 relativeBG">
-		    	<div class="mysidebar-l">
+		    <div id="scrollDiv1" class="col2 control-intro-parent relativeBG">
+		    	<div class="mysidebar-l control-intro">
 		    		<div class="container">
 			    		<div class="row">
 			    			<div class="col-md-12"><h1 class="title">Introduction</h1></div>
 			    		</div>
 			    		<div class="row">
-			    			<main class="col-md-10 center" style="text-align: left;">
-			    				<p class="text-small lead-in">Hello World!</p>
+			    			<main class="col-md-10 center" style="text-align: left; overflow-y: auto; max-height: 80vh;">
+			    				<p class="text-small lead-in">Hello everyone I am Saurabh Thakur.<br>
+									I am currently a student pursuing computer science engineering from Chitkara University, Punjab.<br>
+									My main interest is in Web Development and I can handle both back-end and front-end of a web app.<br>
+									It doesn't really matter what frameworks/tools I use as in the industry of web development where frameworks/tools keep evolving and we have to learn new things on the go, what matters is the grasping power and learning new things quickly. I believe I am a quick learner. I prioritize concepts more than learning how to do things. This helps in quick learning of new technologies.<br>
+									However, my current skill set includes JavaScript(ES6), KnockoutJS, Python, Flask, Bootstrap, CSS, HTML. These also include some simple yet very important tools like Git, Babel etc. I look forward to learn React as it is a very powerful and according to stack overflow analysis is the number 1 loved framework.</p>
 				    		</main>
 			    		</div>
 		    		</div>
@@ -163,7 +167,7 @@
 		    		</div>
 		    		<div class="row">
 		    			<div class="col-md-4">
-		    				<p class="text-small">Proficient in writing code in various languages including python, javascript(ES6) and c++. My main interest is in full stack web development. I can develop a fully functioning website from the ground up.</p>
+		    				<p class="skill-text">Proficient in writing code in various languages including python, javascript(ES6) and c++. I can develop a fully functioning website from the ground up. And oh! these progress bar doesn't show that I know JS or Python 90% but they show that I can use them efficiently upto these extents to deliver my <strong>100%</strong>.</p>
 		    			</div>
 		    			<div class="col-md-1"></div>
 		    			<div class="col-md-7">
@@ -226,11 +230,11 @@
 					</div>
 					<div class="row">
 						<div class="col-md-12">
-							<p class="text-small white-text" align="center">Projects are the love of my life. A day will be so boring without a project by the side. I have done various projects and 6 of the best projects which I think I have made are shown below.</p>
+							<p class="intro-text white-text" align="center">Projects are the love of my life. A day will be so boring without a project by the side. I have done various projects and 6 of the best projects which I think I have made are shown below.</p>
 						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-11">
+						<div class="col-md-10">
 							<div id="next" class="carousel slide" data-ride="carousel">
 							    <ol class="carousel-indicators">
 									<li data-target="#next" data-slide-to="0" class="active"></li>
@@ -320,10 +324,12 @@
 			<div class="relativeBG col-github-feed" id="scrollDiv4">
 				<div class="container">
 					<div class="row">
-						<div class="col-md-12"><h1 class="title font-control">Recent GitHub Feed</h1></div>
+						<div class="col-md-12">
+							<h1 class="title font-control">Recent GitHub Feed</h1>
+						</div>
 					</div>
 					<div class="row">
-						<div class="col-md-12">
+						<div class="col-md-12 margin-set-github">
 							<div class="jumbotron height-check"><div id="feed"></div></div>
 						</div>
 					</div>
@@ -339,8 +345,20 @@
 		<div id="scrollDiv5" class="section">
 			<div class="col1 relativeBG">
 				<div class="container">
+					<div class="row" style="padding-top: 15vh;">	
+						<div class="center card text-center">
+							<div class="card-header">
+							Like Me?
+							</div>
+							<div class="card-body">
+								<span class="thumbs-up"><i class="fa fa-thumbs-up"></i></span>
+								<p class="card-text-my">If our skills collide or you think we can learn of each others exciting skills and journey of code, ping me.<br>We will walk and talk.</p>
+								<a href="#" class="btn btn-primary top-btn card-btn-my">Contact Me</a></div>
+							<div class="card-footer text-muted">Made with <i class="fa fa-heart" style="color: #f00;"></i> and my ASUS R558UF</div>
+						</div>
+					</div>
 					<span class="arrow-over">
-						<a id="scroll6" href="#"><i class="fa fa-angle-down fa-2x white-text arrow"></i></a>
+						<a class="top-btn" href="#"><i class="fa fa-angle-up fa-2x white-text arrow"></i></a>
 					</span>
 				</div>
 			</div>
@@ -360,5 +378,5 @@
     <script src="js/typed.js"></script>
     <script src="js/app.js"></script>
 </body>
-
 </html>
+

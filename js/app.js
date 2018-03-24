@@ -25,14 +25,20 @@ for(let i=1;i<=sections;i++){
 	$(`#scroll${i}`).click(()=>{
 		$('html, body').animate({
 	        scrollTop: $(`#scrollDiv${i}`).offset().top
-	    }, 1000);
+	    }, 500);
 	});
 }
 
 $(`#scroll-rel`).click(()=>{
 	$('html, body').animate({
         scrollTop: $(`#skills`).offset().top
-    }, 1000);
+    }, 500);
+});
+
+$(`.top-btn`).click(()=>{
+	$('html, body').animate({
+        scrollTop: $(`#top-page`).offset().top
+    }, 700);
 });
 
 // touch swipe of the jquery carousel by Andrea Rufo

@@ -41,6 +41,20 @@ p {
 	color: #414141 !important;
 }
 
+.github-text {
+	font-size: 1.5em;
+	display: block;
+}
+
+.margin-set-github {
+	margin-top: -3%;
+}
+
+.card {
+	height:70vh;
+	max-width: 725px;
+}
+
 .education-font {
 	font-size: 1.2em;
 }
@@ -51,6 +65,7 @@ p {
 }
 
 .height-check {
+	margin-top: 5%;
 	max-height: 80vh;
 	overflow: auto;
 }
@@ -61,6 +76,9 @@ p {
 	/*background: #f38;*/
 }
 
+.intro-text {
+	font-size: 1.25em;
+}
 
 .col1h {
 	height: 50vh;
@@ -110,6 +128,10 @@ a:focus, a:active, a:visited, a:link{
 
 .orange {
 	color: #bf5c33;
+}
+
+.skill-text {
+	font-size: 1.15em;
 }
 
 .blue {
@@ -190,8 +212,28 @@ a:focus, a:active, a:visited, a:link{
 	color:#707070;
 }
 
+.card-body {
+	transform: translateY(-108px);
+}
+
+.card-text-my {
+	transform: translateY(-24px);
+}
+
+.card-btn-my {
+	transform: translateY(-24px);
+}
+
+.card-footer {
+	transform: translateY(-122px);
+}
+
 .text-small {
 	font-size: 1.35em;
+}
+
+.thumbs-up {
+	font-size: 16em;
 }
 
 .my-img {
@@ -226,6 +268,12 @@ a:focus, a:active, a:visited, a:link{
 @media screen and (max-width: 800px) {
 	.my-name {
 		font-size: 6vh;
+	}
+	.skill-text {
+		font-size: 1.25em;
+	}
+	.intro-text {
+		font-size: 1.25em;
 	}
 	.code {
 		font-family: 'Inconsolata', monospace;
@@ -265,7 +313,7 @@ a:focus, a:active, a:visited, a:link{
 		margin-top: 20px;
 	}
 	.text-small {
-		font-size: 1em;
+		font-size: 1.3em;
 	}
 	.distance-maintain {
 		margin-top: 6%;
@@ -282,9 +330,22 @@ a:focus, a:active, a:visited, a:link{
 	.hide-arrow {
 		display: block;
 	}
+	.control-intro {
+		height: 100vh;		
+	}
+	.control-intro-parent {
+		height:150vh;
+	}
+	.card-footer {
+		transform: translateY(-134px);
+	}
 }
 
+
 @media screen and (max-width: 400px) {
+	.skill-text {
+		font-size: 1em;
+	}
 	.filler {
 		display: block;
 		font-size: 12em;
@@ -301,6 +362,27 @@ a:focus, a:active, a:visited, a:link{
 	}
 	.carousel {
 		left: 0;
+	}
+	.distance-maintain {
+		margin-top: 3%;
+	}
+	.thumbs-up {
+		font-size: 6em;
+	}
+	.card-body {
+		transform: translateY(-39px);
+	}
+
+	.card-text-my {
+		transform: translateY(-5px);
+	}
+
+	.card-btn-my {
+		transform: translateY(-5px);
+	}
+
+	.card-footer {
+		transform: translateY(-40px);
 	}
 }
 
