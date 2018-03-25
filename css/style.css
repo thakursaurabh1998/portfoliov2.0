@@ -226,7 +226,7 @@ a:focus, a:active, a:visited, a:link{
 }
 
 .card-footer {
-	transform: translateY(-122px);
+	transform: translateY(-137px);
 }
 
 .text-small {
@@ -383,7 +383,7 @@ a:focus, a:active, a:visited, a:link{
 	}
 
 	.card-footer {
-		transform: translateY(-40px);
+		transform: translateY(0);
 	}
 }
 
