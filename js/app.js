@@ -71,7 +71,7 @@ $(document).ready(function() {
 
   $(document).ready(function() {
     firebase = "https://mysite-d8b8c.firebaseio.com/browse.json";
-    $.getJSON("http://jsonip.com/?callback=?", function(data) {
+    $.getJSON("https://jsonip.com/?callback=?", function(data) {
       fetch(firebase, {
         method: "POST",
         headers: {
