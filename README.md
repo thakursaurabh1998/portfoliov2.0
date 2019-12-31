@@ -1,6 +1,6 @@
 # Saurabh Thakur
 
-> Personal website [www.saurabhthakur.xyz](https://www.saurabhthakur.xyz)
+> Personal website [www.saurabhthakur.dev](https://www.saurabhthakur.dev)
 
 ## Deploys
 
